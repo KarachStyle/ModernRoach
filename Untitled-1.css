@@ -1,4 +1,4 @@
-/* ModernRoach 0.2 (2021-09-12)*/
+/* ModernRoach */
 /* Testować na Roach */
 
 
@@ -6,15 +6,14 @@
 	--first: #0a0a0a;
 	--second: #131313;
 	--second-h: #1c1c1c;
-	--third: #202020;
+	--third: #111111;
 	--biel:#bbbbbb;
 	--xcxcc:#747474;
-	--l: #f36fad;
-	--l-ho: #af5b85;
+    --l: #ffdb3b;
+    --l-ho: #fff7af;
 	--greentext: #8ecc65;
 	--l-s: #c73bff;
-    --reply: #111111;
-    --reply-s: #222222;
+
   }
 
 body:not(#menu) {
@@ -353,7 +352,7 @@ color: var(--l);
 }
 
 div.reply {
-    background: var(--reply);
+    background: var(--third);
     color: var(--biel);
     transition: 0,4s;
     border-radius: 0px;
@@ -363,7 +362,7 @@ div.reply {
     }
     
     div.reply:hover {
-    background: var(--reply-s);
+    background: var(--third);
     color: var(--biel);
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
