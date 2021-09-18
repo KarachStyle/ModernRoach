@@ -1,5 +1,7 @@
 /* ModernRoach */
 /* Testować na Roach */
+@-moz-document domain(karachan.org) {
+	/* your code goes here */
 
 
 :root {
@@ -630,7 +632,7 @@ border: none;
 }
 
 .boxbar {
-background: var(--third);
+background: var(--third)!important;
 color: var(--xcxcc);
 }
 
@@ -1336,3 +1338,5 @@ div.boardBanner > img {
 .fa-navicon::hover, .fa-reorder::hover, .fa-bars::hover {
 	content: "\f0c9";
 	color: red!important; }
+
+}
